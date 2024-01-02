@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    height: 50px;
+    color: white; 
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    z-index: 1000;
+}
+
+nav a {
+    position: relative;
+    height: 100%;
+}
+
+.left {
+    float: left;
+    margin-left: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.right {
+    float: right;
+    margin-right: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+header {
+    height: 600px;
+    background-image: url(header.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid rgb(51, 51, 51);
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+p, li {
+    text-align: justify;
+    text-justify: inter-word;
+    padding-bottom: 10px;
+}
+
+h1 {
+    position: relative;
+    margin: auto;
+    top: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+nav a:link {
+    color: white;
+    text-decoration: unset;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+nav a:visited {
+    color: white;
+}
+
+table, th, td {
+    border: 1px black solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+tr:nth-child(2n), th {
+    background-color: silver;
+}
+
+table {
+    margin: auto;
+}
+
+p a:link, li a:link {
+    color: brown;
+}
+
+p a:hover, li a:hover {
+    background-color: silver;
+}
+
+p a:visited, li a:visited {
+    color: brown;
+}
