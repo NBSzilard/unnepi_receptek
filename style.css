@@ -109,15 +109,15 @@ table {
     margin: auto;
 }
 
-p a:link, li a:link {
+p a:link, li a:link, figcaption a:link, h2 a:link {
     color: brown;
 }
 
-p a:hover, li a:hover {
+p a:hover, li a:hover, figcaption a:hover, h2 a:hover {
     background-color: silver;
 }
 
-p a:visited, li a:visited {
+p a:visited, li a:visited, figcaption a:visited, h2 a:visited {
     color: brown;
 }
 
